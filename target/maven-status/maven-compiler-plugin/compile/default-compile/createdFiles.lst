@@ -1,0 +1,9 @@
+com\sikka\sdm3\MysikkaApplication.class
+com\sikka\sdm3\utility\configutation\TokenIamConfig.class
+com\sikka\sdm3\utility\configutation\Token.class
+com\sikka\sdm3\utility\apierror\ApiError.class
+com\sikka\sdm3\utility\interception\TokenIamInterceptor.class
+com\sikka\sdm3\config\FileStorageProperties.class
+com\sikka\sdm3\utility\excaption\ProbisValidationExaption.class
+META-INF\spring-configuration-metadata.json
+com\sikka\sdm3\tester\TesController.class

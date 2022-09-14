@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "file",
+      "type": "com.sikka.sdm3.config.FileStorageProperties",
+      "sourceType": "com.sikka.sdm3.config.FileStorageProperties"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
