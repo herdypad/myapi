@@ -21,3 +21,16 @@ Kemudian, install Java Development Kit (JDK). JDK adalah perangkat lunak yang di
  Terakhir, untuk memastikan instalasi Java berhasil, Anda bisa mengeceknya menggunakan perintah berikut.
 
 ~# java -version~# javac -version
+
+
+postgres=# GRANT ALL ON SCHEMA test TO xxx;
+postgres=# GRANT ALL ON ALL TABLES IN SCHEMA test TO xxx;
+postgres=# \q
+
+
+postgres@server:-$ createdb user
+$ sudo -u postgres createdb user
+postgres=# \password
+Enter new password:
+Enter it again:
+postgres=#
