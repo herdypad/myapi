@@ -23,6 +23,11 @@ Kemudian, install Java Development Kit (JDK). JDK adalah perangkat lunak yang di
 ~# java -version~# javac -version
 
 
+ $ sudo apt-get update
+ $ sudo apt-get install postgresql postgresql-contrib
+ $ sudo -i -u postgres
+
+
 postgres=# GRANT ALL ON SCHEMA test TO xxx;
 postgres=# GRANT ALL ON ALL TABLES IN SCHEMA test TO xxx;
 postgres=# \q
