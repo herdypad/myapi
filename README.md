@@ -1,1 +1,23 @@
-"# myapi" 
+1. Update Server
+
+Pertama-pertama, yang perlu Anda lakukan adalah memperbarui repository pada Ubuntu dengan menggunakan perintah berikut:
+
+~# sudo apt-get update && apt-get upgrade
+
+2. Install JRE
+
+Selanjutnya, install Java Runtime Environment (JRE). JRE adalah perangkat lunak yang digunakan untuk menjalankan program/aplikasi yang berbasis Java. Untuk install JRE pada Ubuntu, masukkan perintah berikut: 
+
+~# sudo apt-get install default-jre
+
+3. Install JDK
+
+Kemudian, install Java Development Kit (JDK). JDK adalah perangkat lunak yang digunakan untuk mengumpulkan  kompilasi kode-kode Java yang dibuat oleh pengembang aplikasi lalu menerjemahkannya ke dalam bytecode untuk dijalankan oleh JRE. Masukkan perintah berikut untuk install JDK.
+
+~# sudo apt-get install default-jdk
+
+4. Cek Versi Java
+
+ Terakhir, untuk memastikan instalasi Java berhasil, Anda bisa mengeceknya menggunakan perintah berikut.
+
+~# java -version~# javac -version
