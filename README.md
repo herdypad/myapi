@@ -39,3 +39,7 @@ postgres=# \password
 Enter new password:
 Enter it again:
 postgres=#
+
+cara kill potr vps
+kill -9 $(lsof -t -i:8080)
+sudo netstat -tunlp
